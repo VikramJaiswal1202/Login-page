@@ -1,0 +1,84 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(230deg, rgba(2,0,36,1) 0%, rgba(0,94,126,1) 45%, rgba(2,0,36,1) 100%);
+}
+.form_box{
+    background-color: #006088;
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 30px;
+    border-radius: 70px;
+    border: solid #00B8E3;
+    
+}
+.img_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    border-radius: 200px;
+    border:solid #00A6CB;
+    border-width:10px ; 
+}
+input{
+    background: rgb(0,36,67);
+    background: linear-gradient(98deg, rgba(0,36,67,1) 0%, rgba(0,85,140,1) 100%);
+    border: none;
+    height: 50px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-color: black ;
+    
+
+}
+::placeholder{
+    color: white;
+    opacity: 50%;
+    font-size: large;
+    text-align: center;
+}
+.input_button{
+    background: rgb(0,36,67);
+    background: linear-gradient(98deg, rgba(0,36,67,1) 0%, rgba(0,85,140,1) 100%);
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 16px;
+    color: white;
+    font-size: larger;
+    opacity: 60%;
+    margin: 10px;
+    margin-left: 112px;
+    
+}
+.fg_password{
+    color: white;
+    
+    text-decoration: none;  
+}
+.input_button:hover{
+    cursor: pointer;
+}
+.att{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
